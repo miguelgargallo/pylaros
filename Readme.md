@@ -54,11 +54,11 @@ While selecting a base image for our Docker containers, it is crucial to factor 
 
 ### Supported Versions
 
-| Distro | Version     | Supported          | Latest             |
-| ------ | ----------- | ------------------ | ------------------ |
-| Ubuntu | 23.10       | :white_check_mark: | :white_check_mark: |
-| Linux  | Arch        | :white_check_mark: | :x:                |
-| Ubuntu | 22.04.3 LTS | :white_check_mark: | :x:                |
+| Distro | Version     | Supported | Latest |
+| ------ | ----------- | --------- | ------ |
+| Ubuntu | 23.10       | ✅         | ✅      |
+| Linux  | Arch        | ✅         | ❌      |
+| Ubuntu | 22.04.3 LTS | ✅         | ❌      |
 
 #### Reporting a Vulnerability
 
