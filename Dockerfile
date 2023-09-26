@@ -13,4 +13,4 @@ RUN pacman -Syu --noconfirm && \
 RUN pacman -S --noconfirm go && \
     go version
 
-# Your additional commands here
+# Your additional commands here.
