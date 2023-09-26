@@ -9,4 +9,8 @@ RUN pacman -Syu --noconfirm && \
     pacman -S --noconfirm sudo nano vim neovim ufw zip unzip wget curl git neofetch make gcc fontconfig zsh && \
     pacman -Scc --noconfirm
 
+# Explicitly upgrade Golang
+RUN pacman -S --noconfirm go && \
+    go version
+
 # Your additional commands here
