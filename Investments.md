@@ -1,0 +1,13 @@
+As ITAMAESAN, we'd like to take this moment to highlight the significance of our strategic investments in collaboration with Pencil Works LLC and Pylar. We firmly believe that the right software and design choices can elevate a brand and its capabilities exponentially, which is why we have opted for high-grade solutions in various domains.
+
+For our DevOps requirements, we've subscribed to Docker Pro, offering us unlimited public and private repositories, 5,000 image pulls per day, and 300 vulnerability scans. Our Docker Scout Team subscription further enhances our software development lifecycle, enabling advanced image analysis and upcoming policy evaluations. With npm Pro, we're unhindered in both public and private package management, ensuring streamlined development workflows.
+
+In the design sphere, we've gone beyond just aesthetics; we've invested in storytelling. The fonts we've selected—Geometrica Sans by Virág for our documents, Tectonic for web design, and Xonda for our apps—are not merely typefaces but a reflection of our brand's ethos and our commitment to quality. Language support across Russian, Central European, Cyrillic, Latin, and more ensures that our global reach is not linguistically compromised.
+
+To make our brand stand out even more, we've invested in a monthly subscription with Coolors for color identity organization, thus ensuring that we're not just globally relevant but also aesthetically consistent.
+
+Beyond these technicalities, our investment in these software and fonts signifies a larger narrative. It emphasizes our commitment to support small designers and studios like Virág and Richprjcts, echoing our belief that creativity and innovation are not monopolized by size or fame. Licensing these fonts ensures that we're part of an ecosystem that encourages creative excellence and compensates artists fairly for their work.
+
+Investing in high-quality, corporate tech software and licensed creative works is not just a business decision—it's a testament to our belief in sustainable, responsible, and exceptional craftsmanship. We are showing that great software and great design are not just possible but crucial for an entity focused on long-term value and impact.
+
+The conclusion is clear: investment in the right technology and design is not an expense but a long-term asset. It helps us stay agile, keeps our brand vibrant and relevant, and most importantly, fosters an environment where creativity and technology co-exist seamlessly.
