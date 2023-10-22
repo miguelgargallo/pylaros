@@ -89,7 +89,7 @@ While selecting a base image for our Docker containers, it is crucial to factor 
 | ------ | ----------- | ------------------ | ------------------ | --- |
 | Linux  | Arch        | ✅ | ✅ | ✅ |
 | Ubuntu | 23.10       | ✅ | ✅ | ❌ |
-| Ubuntu | 22.04.3 LTS | ✅ | ❌ | ✅ |
+| Ubuntu | 22.04 LTS | ✅ | ❌ | ✅ |
 
 #### Reporting a Vulnerability
 
