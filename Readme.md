@@ -1,6 +1,6 @@
 # PylarOS
 
-[Docker](https://hub.docker.com/repository/docker/itamaesan/pylaros/general) | [GitHub](https://github.com/miguelgargallo/pylaros)
+[Docker](https://hub.docker.com/repository/docker/itamaesan/pylaros/general) | [GitHub](https://github.com/itamaesanorg/pylaros) | [Twitter](https://twitter.com/MiguelGargallo) | [Support](https://cal.com/miguelgargallo/pylar-support?duration=45)
 
 ```bash
      ooooooooo.               oooo                            .oooooo.    .oooooo..o
