@@ -97,11 +97,11 @@ While selecting a base image for our Docker containers, it is crucial to factor 
 
 ### Supported Versions
 
-| Distro | Version       | Supported | LTS | Latest |
-| ------ | ------------- | --------- | --- | ------ |
-| Linux  | Arch          |     ✅    | ✅ |   ✅   |
-| Ubuntu | 23.10         |     ✅    | ❌ |   ❌   |
-| Ubuntu | 22.04.3 LTS   |     ✅    | ✅ |   ❌   |
+| Distro | PylarOS Version      | Version       | Supported | LTS | Latest | Planned for PylarOS LTS | Works on a NAS |
+| ------ | -------------------- | ------------- | --------- | --- | ------ | ----------------------- | -------------- |
+| Linux  | Mid 2023 (Oct)       | Arch          |     ✅    | ✅ |   ✅   |            ✅          |       ✅       |
+| Ubuntu | Mid 2023 (Sept)      | 23.10         |     ✅    | ❌ |   ❌   |            ❌          |       ❓       |
+| Ubuntu | Mid 2023 (Sept)      | 22.04.3 LTS   |     ✅    | ✅ |   ❌   |            ❓          |       ❓       |
 
 #### Reporting a Vulnerability
 
