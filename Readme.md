@@ -1,5 +1,7 @@
 # PylarOS
 
+## PylarOS: A superset of Linux for devs
+
 [Docker](https://hub.docker.com/repository/docker/itamaesan/pylaros/general) | [GitHub](https://github.com/itamaesanorg/pylaros) | [Twitter](https://twitter.com/MiguelGargallo) | [Support](https://cal.com/miguelgargallo/pylar-support?duration=45)
 
 ```bash
