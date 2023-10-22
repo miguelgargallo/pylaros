@@ -1,5 +1,24 @@
 # PylarOS
 
+```bash
+     ooooooooo.               oooo                            .oooooo.    .oooooo..o
+     `888   `Y88.             `888                           d8P'  `Y8b  d8P'    `Y8
+      888   .d88' oooo    ooo  888   .oooo.   oooo d8b      888      888 Y88bo.
+      888ooo88P'   `88.  .8'   888  `P  )88b  `888""8P      888      888  `"Y8888o.
+      888           `88..8'    888   .oP"888   888          888      888      `"Y88b
+      888            `888'     888  d8(  888   888          `88b    d88' oo     .d8P
+     o888o            .8'     o888o `Y888""8o d888b   ©      `Y8bood8P'  8""88888P'
+                  .o..P'
+                  `Y8P'
+
+PylarOS: A superset of Linux for devs
+
+  >> GitHub: https://github.com/itamaesanorg/pylaros
+  >> Docker: https://hub.docker.com/r/itamaesan/pylaros
+  >> Support: https://cal.com/miguelgargallo/pylar-support?duration=45
+  >> Twitter: @MiguelGargallo (https://twitter.com/MiguelGargallo)
+```
+
 ## Overview
 
 PylarOS is a Linux environment built on Ubuntu 23.10 that comes pre-installed with a variety of development and utility tools. This Docker image is geared towards developers, system administrators, and anyone who needs a flexible, ready-to-go Linux environment.
@@ -49,8 +68,10 @@ docker build -t itamaesan/pylaros:latest .
 Access:
 
 ```bash
-ssh root@localhost -p 2222
+ssh dev@localhost -p 2222
 ```
+
+Use `dev` user, password is `dev`.
 
 Support user is `hagrid`, do not touch it. For support: [Support](https://cal.com/miguelgargallo/pylar-support)
 
@@ -133,7 +154,7 @@ Total Installed Size:  535.09 MiB
 Net Upgrade Size:      500.63 MiB
 ```
 
-See the [.log](.log)
+See the [.log](https://github.com/miguelgargallo/pylaros/blob/408bddc941a2f274702f3cc071b1f433212e3524/.log)
 
 ## Author
 
