@@ -46,6 +46,14 @@ To build the image locally:
 docker build -t itamaesan/pylaros:latest .
 ```
 
+Access:
+
+```bash
+ssh root@localhost -p 2222
+```
+
+Support user is `hagrid`, do not touch it. For support: [Support](https://cal.com/miguelgargallo/pylar-support)
+
 ## Security Policy
 
 ### Choice of Ubuntu 23.10
@@ -54,11 +62,11 @@ While selecting a base image for our Docker containers, it is crucial to factor 
 
 ### Supported Versions
 
-| Distro | Version     | Supported | Latest |
-| ------ | ----------- | --------- | ------ |
-| Ubuntu | 23.10       | ✅         | ✅      |
-| Linux  | Arch        | ✅         | ❌      |
-| Ubuntu | 22.04.3 LTS | ✅         | ❌      |
+| Distro | Version     | Supported          | Latest             |
+| ------ | ----------- | ------------------ | ------------------ |
+| Ubuntu | 23.10       | ✅ | ✅ |
+| Linux  | Arch        | ✅ | ❌                |
+| Ubuntu | 22.04.3 LTS | ✅ | ❌                |
 
 #### Reporting a Vulnerability
 
@@ -75,6 +83,57 @@ While selecting a base image for our Docker containers, it is crucial to factor 
 | Redhat       | 4 months ago  | 3 months ago | CVE-2023-29403⁠ | 1.8                  | -              | CWE-668 | 7.8        | High     |
 | Rocky        | 3 months ago  | 3 months ago | RLSA-2023:3923⁠ | -                    | -              | -       | N/A        | Critical |
 | Oracle       | 3 months ago  | 3 months ago | ELSA-2023-3922⁠ | -                    | -              | -       | N/A        | Critical |
+
+## Packages
+
+Transparency exercise, command executed by user: `dev`
+
+```bash
+sudo pacman -S make gcc nano vim neovim wget curl ufw zip unzip git neofetch fontconfig zsh
+```
+
+```bash
+Package (32)          Old Version  New Version  Net Change  Download Size
+
+core/binutils                      2.41-3        40.87 MiB       7.59 MiB
+core/db                            6.2.32-1       7.16 MiB       1.33 MiB
+core/db5.3                         5.3.28-4       6.52 MiB       1.20 MiB
+extra/freetype2                    2.13.2-1       1.63 MiB       0.51 MiB
+core/gc                            8.2.4-1        0.75 MiB       0.23 MiB
+extra/graphite                     1:1.3.14-3     0.20 MiB       0.08 MiB
+core/guile                         3.0.9-1       52.98 MiB       8.10 MiB
+extra/harfbuzz                     8.2.2-1        3.88 MiB       0.98 MiB
+core/jansson                       2.14-2         0.18 MiB       0.05 MiB
+core/libisl                        0.26-1         5.71 MiB       0.85 MiB
+core/libmpc                        1.3.1-1        0.17 MiB       0.08 MiB
+extra/libpng                       1.6.40-2       0.57 MiB       0.24 MiB
+core/pcre                          8.45-4         3.50 MiB       0.98 MiB
+core/perl                          5.38.0-1      75.91 MiB      20.26 MiB
+extra/perl-error                   0.17029-5      0.04 MiB       0.02 MiB
+extra/perl-mailtools               2.21-7         0.10 MiB       0.06 MiB
+extra/perl-timedate                2.33-5         0.08 MiB       0.03 MiB
+core/python                        3.11.5-2      75.23 MiB      13.92 MiB
+core/curl             8.4.0-2      8.4.0-2        0.00 MiB       1.20 MiB
+extra/fontconfig                   2:2.14.2-1     1.09 MiB       0.36 MiB
+core/gcc                           13.2.1-3     184.16 MiB      46.84 MiB
+extra/git                          2.42.0-1      26.31 MiB       6.17 MiB
+core/make                          4.4.1-2        1.67 MiB       0.51 MiB
+core/nano             7.2-1        7.2-1          0.00 MiB
+extra/neofetch                     7.1.0-2        0.33 MiB       0.08 MiB
+extra/neovim          0.9.4-2      0.9.4-2        0.00 MiB
+extra/ufw                          0.36.2-2       0.93 MiB       0.22 MiB
+extra/unzip                        6.0-20         0.30 MiB       0.14 MiB
+extra/vim             9.0.2010-1   9.0.2010-1     0.00 MiB
+extra/wget                         1.21.4-1       3.18 MiB       0.71 MiB
+extra/zip                          3.0-11         0.55 MiB       0.17 MiB
+extra/zsh                          5.9-4          6.62 MiB       2.23 MiB
+
+Total Download Size:   115.14 MiB
+Total Installed Size:  535.09 MiB
+Net Upgrade Size:      500.63 MiB
+```
+
+See the [.log](.log)
 
 ## Author
 
