@@ -85,11 +85,11 @@ While selecting a base image for our Docker containers, it is crucial to factor 
 
 ### Supported Versions
 
-| Distro | Version     | Supported          | Latest             |
-| ------ | ----------- | ------------------ | ------------------ |
-| Ubuntu | 23.10       | ✅ | ✅ |
-| Linux  | Arch        | ✅ | ❌                |
-| Ubuntu | 22.04.3 LTS | ✅ | ❌                |
+| Distro | Version     | Supported          | Latest             | LTS |
+| ------ | ----------- | ------------------ | ------------------ | --- |
+| Linux  | Arch        | ✅ | ✅ | ✅ |
+| Ubuntu | 23.10       | ✅ | ✅ | ❌ |
+| Ubuntu | 22.04.3 LTS | ✅ | ❌ | ✅ |
 
 #### Reporting a Vulnerability
 

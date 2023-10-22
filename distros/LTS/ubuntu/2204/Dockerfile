@@ -1,5 +1,6 @@
+# This version does not contains the Update Octover Update, please wait. ASAP will be released.
 # Use an official Ubuntu Server 22.04.3 LTS as a parent image
-FROM ubuntu:23.10
+FROM ubuntu:22.04
 
 # Set the maintainer label
 LABEL maintainer="pylaros@itamaesan.org"

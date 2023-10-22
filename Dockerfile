@@ -1,17 +1,24 @@
-# Use an official Ubuntu Server 22.04.3 LTS as a parent image
-FROM ubuntu:23.10
+# Use the base Arch Linux image
+FROM archlinux:latest
 
-# Set the maintainer label
-LABEL maintainer="pylaros@itamaesan.org"
+# Update the system
+RUN pacman -Syu --noconfirm
 
-# Disable interactive installation prompts
-ARG DEBIAN_FRONTEND=noninteractive
+# Install necessary packages (like sudo, openssh, etc.)
+RUN pacman -S --noconfirm sudo openssh
 
-# Update and upgrade packages
-RUN apt-get update && \
-    apt-get upgrade -y && \
-    apt-get install -y sudo nano vim neovim ufw zip unzip wget curl git make gcc zsh && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/*
+# Setup SSHD config to allow root login
+RUN echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config
+RUN echo 'root:root' | chpasswd
 
-# Your additional commands here
+# Setup SSH keys (required for SSH to work)
+RUN ssh-keygen -A
+
+# Expose the SSH port
+EXPOSE 22
+
+# Setup a permanent volume
+VOLUME ["/mydata"]
+
+# Run the SSH server
+CMD ["/usr/sbin/sshd", "-D"]
