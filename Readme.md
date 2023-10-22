@@ -27,6 +27,12 @@ PylarOS is a Linux environment built on Ubuntu 23.10 that comes pre-installed wi
 
 ## Features
 
+  - Pre-Installed packages
+  - The (almost) perfect Neovim setup for Node.js [by dreamsofcode YT](https://youtu.be/CVCBHHFXWNE?si=YjHUe9-OaZN41lsF)
+  - Rust included
+  - Node v20.8.1 && npm 10.2.1
+  - Instant access with `ssh dev@localhost -p 2222`
+
 ### Pre-Installed Packages
 - **Development Tools**: `make`, `gcc`
 - **Text Editors**: `nano`, `vim`, `neovim`
@@ -89,11 +95,11 @@ While selecting a base image for our Docker containers, it is crucial to factor 
 
 ### Supported Versions
 
-| Distro | Version     | Supported          | Latest             | LTS |
-| ------ | ----------- | ------------------ | ------------------ | --- |
-| Linux  | Arch        | ✅ | ✅ | ✅ |
-| Ubuntu | 23.10       | ✅ | ✅ | ❌ |
-| Ubuntu | 22.04 LTS | ✅ | ❌ | ✅ |
+| Distro | Version     | Supported          | LTS |
+| ------ | ----------- | ------------------ | --- |
+| Linux  | Arch        | ✅ | ✅ |
+| Ubuntu | 23.10       | ✅ | ❌ |
+| Ubuntu | 22.04 LTS | ✅ | ✅ |
 
 #### Reporting a Vulnerability
 
