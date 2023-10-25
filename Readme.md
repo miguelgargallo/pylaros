@@ -58,10 +58,14 @@ We are working so hard to add the following features:
 
 ## Table of versions of languages and tools
 
+### Languages
+
 | Language | Version | Notes                  |
 | -------- | ------- | ---------------------- |
 | rust     | 1.73.0  | (cc66ad468 2023-10-03) |
 | python   | 3.11.5  |                        |
+
+### Tools
 
 | Tool     | Version | Notes                                        |
 | -------- | ------- | -------------------------------------------- |
@@ -79,6 +83,8 @@ We are working so hard to add the following features:
 | curl     | 8.4.0   | 2023-10-11                                   |
 | ufw      | 0.36    |                                              |
 | iptables | 1.8.9   | (legacy)                                     |
+
+### Databases
 
 | Database | Version | Notes        |
 | -------- | ------- | ------------ |
