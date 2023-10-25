@@ -2,6 +2,7 @@
 
 ## PylarOS: A superset of Linux for devs
 
+
 [Docker](https://hub.docker.com/repository/docker/itamaesan/pylaros/general) | [GitHub](https://github.com/itamaesanorg/pylaros) | [Twitter](https://twitter.com/MiguelGargallo) | [Support](https://cal.com/miguelgargallo/pylar-support?duration=45)
 
 
@@ -38,6 +39,8 @@ PylarOS is a Linux environment built on Ubuntu 23.10 that comes pre-installed wi
 
 
 ## Upcoming Features
+Everytime a new update is released, arch linux is updated.
+
 We are working so hard to add the following features:
 
   - Databases included: MongoDB, Redis, MySQL, SQLite
