@@ -34,25 +34,14 @@ PylarOS: A superset of Linux for devs
 | neofetch | fontconfig | zsh      | pnpm    | yarn    | npm      |
 
 
-<!-- A table with disccuss, issues and support calcom -->
+## Overview
+
+PylarOS is a Linux environment built on Ubuntu 23.10 that comes pre-installed with a variety of development and utility tools. This Docker image is geared towards developers, system administrators, and anyone who needs a flexible, ready-to-go Linux environment.
 
 | New Features                                                           | Support & Issues                                                                            | Tailored Support                                                        |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | [Go ahead](https://github.com/miguelgargallo/pylaros/discussions)      | [Let's see what happens](https://github.com/miguelgargallo/pylaros/pulls)                   | [As you wish](https://cal.com/miguelgargallo/pylar-support?duration=45) |
 | If you want to add a new feature, please open an issue and we will it. | If you find any issues or would like to contribute, please open an issue or a pull request. | If you need premium support, please book a meeting.                     |
-
-
-## Overview
-
-PylarOS is a Linux environment built on Ubuntu 23.10 that comes pre-installed with a variety of development and utility tools. This Docker image is geared towards developers, system administrators, and anyone who needs a flexible, ready-to-go Linux environment.
-
-
-## Upcoming Features
-Everytime a new update is released, arch linux is updated.
-
-We are working so hard to add the following features:
-
-  - Databases included: MongoDB, Redis, MySQL, SQLite
 
 
 ## Features
@@ -125,6 +114,15 @@ There is a Postgres ready, here is the credentials:
 | Writters        | Perfect for writters who want a consistent and equipped environment for writing, version control, and package management.                       | `nano`, `vim`, `neovim`, `nvchad`, `git`                               |
 | Data Scientists | Useful for data scientists who need a Linux environment for various tasks and prefer pre-installed utilities to facilitate their work.          | `python`, `nano`, `wget`, `curl`, `zip`, `unzip`                       |
 
+
+## Upcoming Features
+Everytime a new update is released, arch linux is updated.
+
+We are working so hard to add the following features:
+
+  - Databases included: MongoDB, Redis, MySQL, SQLite
+
+
 ## Quick Start
 
 To pull the Docker image:
@@ -163,19 +161,6 @@ Support user is `hagrid`, do not touch it. For support: [Support](https://cal.co
 ### Final decision, choice of Arch Linux
 
 While selecting a base image for our Docker containers, it is essential to consider not just security vulnerabilities but also performance, flexibility, and a lean environment. In this context, Arch Linux emerges as a superior choice over other Linux distributions. Despite its vulnerability, Arch offers a rolling release system, ensuring that users always have the latest software versions without the need for extensive upgrades. This results in a more streamlined, up-to-date, and performance-optimized system. Moreover, the Arch User Repository (AUR) provides a vast collection of user-submitted packages, further enhancing its adaptability and feature set. While the CVE-2023-29403 exploitability score for Arch might be a concern, it's worth noting that the Arch community is highly active, often leading to rapid patches and updates. This proactive approach, combined with the user-centric philosophy of Arch, ensures a balance between cutting-edge performance and security.
-
-
-## Packages
-
-Transparency exercise, command executed by user: `dev`
-
-```bash
-sudo pacman -S make gcc nano vim neovim wget curl ufw zip unzip git neofetch fontconfig zsh
-```
-
-See the [package-transparency.log](https://github.com/miguelgargallo/pylaros/blob/408bddc941a2f274702f3cc071b1f433212e3524/.log)
-
-See the [.log](https://github.com/miguelgargallo/pylaros/blob/408bddc941a2f274702f3cc071b1f433212e3524/.log)
 
 
 ## Author
