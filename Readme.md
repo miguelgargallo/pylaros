@@ -68,7 +68,7 @@ We are working so hard to add the following features:
 
 ## Use-Cases
 
-| Use-Case      | Description                                                                                                                                     | Features according to use-case                                        |
+| Use-Case      | Description                                                                                                                                     | Included Packages                                                     |
 | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
 | Developers    | Perfect for developers who want a consistent and equipped environment for coding, version control, and package management.                      | `neovim`, `node`, `npm`, `rust`, `python`, `lazygit`, `nvchad`, `git` |
 | Sysadmins     | Ideal for sysadmins looking for a containerized solution to perform routine tasks like file operations, network monitoring, and system updates. | `vim`, `wget`, `curl`, `ufw`, `zip`, `unzip`, `git`                   |
