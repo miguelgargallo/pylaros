@@ -26,10 +26,10 @@ PylarOS: A superset of Linux for devs
 
 <!-- A table with disccuss, issues and support calcom -->
 
-| New Features                                                           | Support & Issues                                                                            | Tailored Support                                                    |
-| ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| [Go ahead](https://github.com/miguelgargallo/pylaros/discussions)       | [Let's see what happens](https://github.com/miguelgargallo/pylaros/pulls)                                   | [As you wish](https://cal.com/miguelgargallo/pylar-support?duration=45) |
-| If you want to add a new feature, please open an issue and we will it. | If you find any issues or would like to contribute, please open an issue or a pull request. | If you need premium support, please book a meeting.                 |
+| New Features                                                           | Support & Issues                                                                            | Tailored Support                                                        |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| [Go ahead](https://github.com/miguelgargallo/pylaros/discussions)      | [Let's see what happens](https://github.com/miguelgargallo/pylaros/pulls)                   | [As you wish](https://cal.com/miguelgargallo/pylar-support?duration=45) |
+| If you want to add a new feature, please open an issue and we will it. | If you find any issues or would like to contribute, please open an issue or a pull request. | If you need premium support, please book a meeting.                     |
 
 
 ## Overview
@@ -68,14 +68,11 @@ We are working so hard to add the following features:
 
 ## Use-Cases
 
-#### Developers
-Perfect for developers who want a consistent and equipped environment for coding, version control, and package management.
-
-#### System Administrators
-Ideal for sysadmins looking for a containerized solution to perform routine tasks like file operations, network monitoring, and system updates.
-
-#### General Users
-Useful for general users who need a Linux environment for various tasks and prefer pre-installed utilities to facilitate their work.
+| Use-Case      | Description                                                                                                                                     | Features according to use-case                                        |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| Developers    | Perfect for developers who want a consistent and equipped environment for coding, version control, and package management.                      | `neovim`, `node`, `npm`, `rust`, `python`, `lazygit`, `nvchad`, `git` |
+| Sysadmins     | Ideal for sysadmins looking for a containerized solution to perform routine tasks like file operations, network monitoring, and system updates. | `vim`, `wget`, `curl`, `ufw`, `zip`, `unzip`, `git`                   |
+| General Users | Useful for general users who need a Linux environment for various tasks and prefer pre-installed utilities to facilitate their work.            | `nano`, `wget`, `curl`, `zip`, `unzip`                                |
 
 
 ## Quick Start
