@@ -28,6 +28,12 @@ PylarOS: A superset of Linux for devs
 
 If you want to add a new feature, please open an issue and we will [discuss](https://github.com/miguelgargallo/pylaros/discussions) it.
 
+
+## For issues and feature requests
+
+Please open an issue in the [issues](https://github.com/miguelgargallo/pylaros/pulls) section.
+
+
 ## Overview
 
 PylarOS is a Linux environment built on Ubuntu 23.10 that comes pre-installed with a variety of development and utility tools. This Docker image is geared towards developers, system administrators, and anyone who needs a flexible, ready-to-go Linux environment.
