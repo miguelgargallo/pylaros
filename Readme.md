@@ -69,7 +69,6 @@ We are working so hard to add the following features:
 | npm      | 10.2.1  |                                              |
 | pnpm     | 8.9.2   |                                              |
 | yarn     | 1.22.19 |                                              |
-| postgres | 15.4    | (PostgreSQL)                                 |
 | nano     | 7.2     | 2023                                         |
 | vim      | 9.0     | (2022 Jun 28, compiled Oct 11 2023 19:17:46) |
 | neovim   | 0.9.4   | LuaJIT 2.1.1697887905                        |
@@ -80,6 +79,10 @@ We are working so hard to add the following features:
 | curl     | 8.4.0   | 2023-10-11                                   |
 | ufw      | 0.36    |                                              |
 | iptables | 1.8.9   | (legacy)                                     |
+
+| Database | Version | Notes        |
+| -------- | ------- | ------------ |
+| postgres | 15.4    | (PostgreSQL) |
 
 
 ### Pre-Installed Packages
