@@ -56,13 +56,39 @@ We are working so hard to add the following features:
   - Pre-Installed packages
 
 
+## Table of versions of languages and tools
+
+| Language | Version | Notes                  |
+| -------- | ------- | ---------------------- |
+| rust     | 1.73.0  | (cc66ad468 2023-10-03) |
+| python   | 3.11.5  |                        |
+
+| Tool     | Version | Notes                                        |
+| -------- | ------- | -------------------------------------------- |
+| node     | 20.9.0  | LTS                                          |
+| npm      | 10.2.1  |                                              |
+| pnpm     | 8.9.2   |                                              |
+| yarn     | 1.22.19 |                                              |
+| postgres | 15.4    | (PostgreSQL)                                 |
+| nano     | 7.2     | 2023                                         |
+| vim      | 9.0     | (2022 Jun 28, compiled Oct 11 2023 19:17:46) |
+| neovim   | 0.9.4   | LuaJIT 2.1.1697887905                        |
+| lazygit  | 0.40.2  | build date=2023-08-12T17:47:33Z              |
+| make     | 4.4.1   |                                              |
+| gcc      | 13.2.1  | 20230801                                     |
+| wget     | 1.21.4  | built on linux-gnu                           |
+| curl     | 8.4.0   | 2023-10-11                                   |
+| ufw      | 0.36    |                                              |
+| iptables | 1.8.9   | (legacy)                                     |
+
+
 ### Pre-Installed Packages
 
 - **Special Tools**: `lazygit`, `nvchad`
-- **Node Package Manager**: `npm`, `pnpm`
+- **Node Package Manager**: `npm`, `pnpm`, `yarn`
 - **Text Editors**: `nano`, `vim`, `neovim`
 - **Development Tools**: `make`, `gcc`
-- **Networking**: `wget`, `curl`, `ufw`
+- **Networking**: `wget`, `curl`, `iptables`
 - **Utilities**: `zip`, `unzip`, `git`, `neofetch`
 - **Fonts and Shell**: `fontconfig`, `zsh`
 - **Databases**: `Postgres`
