@@ -49,15 +49,22 @@ We are working so hard to add the following features:
 ## Features
 All are manually installed and configured
 
+Table of features:
+
+| Table    | of         | features |
+| -------- | ---------- | -------- |
+| rust     | python     | node     |
+| lazygit  | nvchad     | postgres |
+| nano     | vim        | neovim   |
+| make     | gcc        | wget     |
+| curl     | ufw        | iptables |
+| zip      | unzip      | git      |
+| neofetch | fontconfig | zsh      |
+| pnpm     | yarn       | npm      |
+
   - Run docker & play. No need to install anything on your machine
   - Arch Linux with ssh access on a Docker container `ssh dev@localhost -p 2222`
   - NVChad manully setup with [The (almost) perfect Neovim setup for Node.js](https://youtu.be/CVCBHHFXWNE?si=YjHUe9-OaZN41lsF)
-  - Node v20.8.1 && npm 10.2.1
-  - Rust
-  - Python
-  - Lazygit
-  - Postgres
-  - Pre-Installed packages
 
 
 ## Table of versions of languages and tools
