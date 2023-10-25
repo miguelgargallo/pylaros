@@ -26,7 +26,7 @@ PylarOS: A superset of Linux for devs
 
 <!-- A table with disccuss, issues and support calcom -->
 
-| Discuss                                                                | Issues                                                                                      | Support                                                             |
+| New Features                                                           | Support & Issues                                                                            | Tailored Support                                                    |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
 | [discuss](https://github.com/miguelgargallo/pylaros/discussions)       | [issues](https://github.com/miguelgargallo/pylaros/pulls)                                   | [support](https://cal.com/miguelgargallo/pylar-support?duration=45) |
 | If you want to add a new feature, please open an issue and we will it. | If you find any issues or would like to contribute, please open an issue or a pull request. | If you need premium support, please book a meeting.                 |
