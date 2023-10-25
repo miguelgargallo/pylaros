@@ -25,6 +25,19 @@ PylarOS: A superset of Linux for devs
   >> Twitter: @MiguelGargallo (https://twitter.com/MiguelGargallo)
 ```
 
+
+| Table    | of         | features |
+| -------- | ---------- | -------- |
+| rust     | python     | node     |
+| lazygit  | nvchad     | postgres |
+| nano     | vim        | neovim   |
+| make     | gcc        | wget     |
+| curl     | ufw        | iptables |
+| zip      | unzip      | git      |
+| neofetch | fontconfig | zsh      |
+| pnpm     | yarn       | npm      |
+
+
 <!-- A table with disccuss, issues and support calcom -->
 
 | New Features                                                           | Support & Issues                                                                            | Tailored Support                                                        |
@@ -51,20 +64,18 @@ All are manually installed and configured
 
 Table of features:
 
-| Table    | of         | features |
-| -------- | ---------- | -------- |
-| rust     | python     | node     |
-| lazygit  | nvchad     | postgres |
-| nano     | vim        | neovim   |
-| make     | gcc        | wget     |
-| curl     | ufw        | iptables |
-| zip      | unzip      | git      |
-| neofetch | fontconfig | zsh      |
-| pnpm     | yarn       | npm      |
-
   - Run docker & play. No need to install anything on your machine
   - Arch Linux with ssh access on a Docker container `ssh dev@localhost -p 2222`
   - NVChad manully setup with [The (almost) perfect Neovim setup for Node.js](https://youtu.be/CVCBHHFXWNE?si=YjHUe9-OaZN41lsF)
+
+- **Special Tools**: `lazygit`, `nvchad`
+- **Node Package Manager**: `npm`, `pnpm`, `yarn`
+- **Text Editors**: `nano`, `vim`, `neovim`
+- **Development Tools**: `make`, `gcc`
+- **Networking**: `wget`, `curl`, `iptables`
+- **Utilities**: `zip`, `unzip`, `git`, `neofetch`
+- **Fonts and Shell**: `fontconfig`, `zsh`
+- **Databases**: `Postgres`
 
 
 ## Table of versions of languages and tools
@@ -100,21 +111,6 @@ Table of features:
 | Database | Version | Notes        |
 | -------- | ------- | ------------ |
 | postgres | 15.4    | (PostgreSQL) |
-
-
-### Pre-Installed Packages
-
-- **Special Tools**: `lazygit`, `nvchad`
-- **Node Package Manager**: `npm`, `pnpm`, `yarn`
-- **Text Editors**: `nano`, `vim`, `neovim`
-- **Development Tools**: `make`, `gcc`
-- **Networking**: `wget`, `curl`, `iptables`
-- **Utilities**: `zip`, `unzip`, `git`, `neofetch`
-- **Fonts and Shell**: `fontconfig`, `zsh`
-- **Databases**: `Postgres`
-
-
-## Databases
 
 There is a Postgres ready, here is the credentials:
 
