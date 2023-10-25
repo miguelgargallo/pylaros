@@ -44,10 +44,11 @@ We are working so hard to add the following features:
 
 
 ## Features
+All are manually installed and configured
 
   - Run docker & play. No need to install anything on your machine
   - Arch Linux with ssh access on a Docker container `ssh dev@localhost -p 2222`
-  - NVChad with [The (almost) perfect Neovim setup for Node.js](https://youtu.be/CVCBHHFXWNE?si=YjHUe9-OaZN41lsF)
+  - NVChad manully setup with [The (almost) perfect Neovim setup for Node.js](https://youtu.be/CVCBHHFXWNE?si=YjHUe9-OaZN41lsF)
   - Node v20.8.1 && npm 10.2.1
   - Rust
   - Python
