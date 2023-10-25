@@ -40,20 +40,20 @@ PylarOS is a Linux environment built on Ubuntu 23.10 that comes pre-installed wi
 ## Upcoming Features
 We are working so hard to add the following features:
 
-  - Databases included: Postgres
+  - Databases included: MongoDB, Redis, MySQL, SQLite
 
 
 ## Features
 
   - Run docker & play. No need to install anything on your machine
-  - Arch Linux with ssh access on a Docker container
+  - Arch Linux with ssh access on a Docker container `ssh dev@localhost -p 2222`
   - NVChad with [The (almost) perfect Neovim setup for Node.js](https://youtu.be/CVCBHHFXWNE?si=YjHUe9-OaZN41lsF)
   - Node v20.8.1 && npm 10.2.1
   - Rust
   - Python
   - Lazygit
+  - Postgres
   - Pre-Installed packages
-  - Instant access with `ssh dev@localhost -p 2222`
 
 
 ### Pre-Installed Packages
@@ -64,6 +64,16 @@ We are working so hard to add the following features:
 - **Networking**: `wget`, `curl`, `ufw`
 - **Utilities**: `zip`, `unzip`, `git`, `neofetch`
 - **Fonts and Shell**: `fontconfig`, `zsh`
+- **Databases**: `Postgres`
+
+
+## Databases
+
+There is a postgresql, here is the credentials:
+
+| User       | Password   | Database   |
+| ---------- | ---------- | ---------- |
+| postgresql | postgresql | postgresql |
 
 
 ## Use-Cases
