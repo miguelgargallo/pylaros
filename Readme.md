@@ -26,16 +26,12 @@ PylarOS: A superset of Linux for devs
 ```
 
 
-| Table    | of         | features |
-| -------- | ---------- | -------- |
-| rust     | python     | node     |
-| lazygit  | nvchad     | postgres |
-| nano     | vim        | neovim   |
-| make     | gcc        | wget     |
-| curl     | ufw        | iptables |
-| zip      | unzip      | git      |
-| neofetch | fontconfig | zsh      |
-| pnpm     | yarn       | npm      |
+| Table    | of         | features | and     | content | PylarOS  |
+| -------- | ---------- | -------- | ------- | ------- | -------- |
+| rust     | python     | node     | lazygit | nvchad  | postgres |
+| nano     | vim        | neovim   | make    | gcc     | wget     |
+| curl     | ufw        | iptables | zip     | unzip   | git      |
+| neofetch | fontconfig | zsh      | pnpm    | yarn    | npm      |
 
 
 <!-- A table with disccuss, issues and support calcom -->
