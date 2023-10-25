@@ -38,6 +38,20 @@ PylarOS: A superset of Linux for devs
 
 PylarOS is a Linux environment built on Ubuntu 23.10 that comes pre-installed with a variety of development and utility tools. This Docker image is geared towards developers, system administrators, and anyone who needs a flexible, ready-to-go Linux environment.
 
+
+## Use-Cases
+
+| Use-Case        | Description                                                                                                                                     | Included Packages                                                      |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| Developers      | Perfect for developers who want a consistent and equipped environment for coding, version control, and package management.                      | `neovim`, `node`, `pnpm`, `rust`, `python`, `lazygit`, `nvchad`, `git` |
+| Sysadmins       | Ideal for sysadmins looking for a containerized solution to perform routine tasks like file operations, network monitoring, and system updates. | `vim`, `wget`, `curl`, `npm`, `ufw`, `zip`, `unzip`, `git`             |
+| General Users   | Useful for general users who need a Linux environment for various tasks and prefer pre-installed utilities to facilitate their work.            | `nano`, `wget`, `curl`, `zip`, `unzip`                                 |
+| Writters        | Perfect for writters who want a consistent and equipped environment for writing, version control, and package management.                       | `nano`, `vim`, `neovim`, `nvchad`, `git`                               |
+| Data Scientists | Useful for data scientists who need a Linux environment for various tasks and prefer pre-installed utilities to facilitate their work.          | `python`, `nano`, `wget`, `curl`, `zip`, `unzip`                       |
+
+
+## Support & Issues
+
 | New Features                                                           | Support & Issues                                                                            | Tailored Support                                                        |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | [Go ahead](https://github.com/miguelgargallo/pylaros/discussions)      | [Let's see what happens](https://github.com/miguelgargallo/pylaros/pulls)                   | [As you wish](https://cal.com/miguelgargallo/pylar-support?duration=45) |
@@ -102,17 +116,6 @@ There is a Postgres ready, here is the credentials:
 | User       | Password   | Database   |
 | ---------- | ---------- | ---------- |
 | postgresql | postgresql | postgresql |
-
-
-## Use-Cases
-
-| Use-Case        | Description                                                                                                                                     | Included Packages                                                      |
-| --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| Developers      | Perfect for developers who want a consistent and equipped environment for coding, version control, and package management.                      | `neovim`, `node`, `pnpm`, `rust`, `python`, `lazygit`, `nvchad`, `git` |
-| Sysadmins       | Ideal for sysadmins looking for a containerized solution to perform routine tasks like file operations, network monitoring, and system updates. | `vim`, `wget`, `curl`, `npm`, `ufw`, `zip`, `unzip`, `git`             |
-| General Users   | Useful for general users who need a Linux environment for various tasks and prefer pre-installed utilities to facilitate their work.            | `nano`, `wget`, `curl`, `zip`, `unzip`                                 |
-| Writters        | Perfect for writters who want a consistent and equipped environment for writing, version control, and package management.                       | `nano`, `vim`, `neovim`, `nvchad`, `git`                               |
-| Data Scientists | Useful for data scientists who need a Linux environment for various tasks and prefer pre-installed utilities to facilitate their work.          | `python`, `nano`, `wget`, `curl`, `zip`, `unzip`                       |
 
 
 ## Upcoming Features
