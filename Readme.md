@@ -68,12 +68,13 @@ We are working so hard to add the following features:
 
 ## Use-Cases
 
-| Use-Case      | Description                                                                                                                                     | Included Packages                                                     |
-| ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
-| Developers    | Perfect for developers who want a consistent and equipped environment for coding, version control, and package management.                      | `neovim`, `node`, `npm`, `rust`, `python`, `lazygit`, `nvchad`, `git` |
-| Sysadmins     | Ideal for sysadmins looking for a containerized solution to perform routine tasks like file operations, network monitoring, and system updates. | `vim`, `wget`, `curl`, `ufw`, `zip`, `unzip`, `git`                   |
-| General Users | Useful for general users who need a Linux environment for various tasks and prefer pre-installed utilities to facilitate their work.            | `nano`, `wget`, `curl`, `zip`, `unzip`                                |
-
+| Use-Case        | Description                                                                                                                                     | Included Packages                                                     |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| Developers      | Perfect for developers who want a consistent and equipped environment for coding, version control, and package management.                      | `neovim`, `node`, `npm`, `rust`, `python`, `lazygit`, `nvchad`, `git` |
+| Sysadmins       | Ideal for sysadmins looking for a containerized solution to perform routine tasks like file operations, network monitoring, and system updates. | `vim`, `wget`, `curl`, `ufw`, `zip`, `unzip`, `git`                   |
+| General Users   | Useful for general users who need a Linux environment for various tasks and prefer pre-installed utilities to facilitate their work.            | `nano`, `wget`, `curl`, `zip`, `unzip`                                |
+| Writters        | Perfect for writters who want a consistent and equipped environment for writing, version control, and package management.                       | `neovim`, `node`, `npm`, `rust`, `python`, `lazygit`, `nvchad`, `git` |
+| Data Scientists | Useful for data scientists who need a Linux environment for various tasks and prefer pre-installed utilities to facilitate their work.          | `python`, `nano`, `wget`, `curl`, `zip`, `unzip`                      |
 
 ## Quick Start
 
