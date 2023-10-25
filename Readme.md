@@ -26,7 +26,7 @@ PylarOS: A superset of Linux for devs
 
 ## New Features in discussions
 
-If you want to add a new feature, please open an issue and we will discuss it.[Support](https://cal.com/miguelgargallo/pylar-support?duration=45)
+If you want to add a new feature, please open an issue and we will [discuss](https://github.com/miguelgargallo/pylaros/discussions) it.
 
 ## Overview
 
