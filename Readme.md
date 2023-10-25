@@ -124,7 +124,7 @@ Transparency exercise, command executed by user: `dev`
 sudo pacman -S make gcc nano vim neovim wget curl ufw zip unzip git neofetch fontconfig zsh
 ```
 
-See the [package-transparency.log](package-transparency.log)
+See the [package-transparency.log](https://github.com/miguelgargallo/pylaros/blob/408bddc941a2f274702f3cc071b1f433212e3524/.log)
 
 See the [.log](https://github.com/miguelgargallo/pylaros/blob/408bddc941a2f274702f3cc071b1f433212e3524/.log)
 
