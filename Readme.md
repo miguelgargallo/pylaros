@@ -29,7 +29,7 @@ PylarOS: A superset of Linux for devs
 If you want to add a new feature, please open an issue and we will [discuss](https://github.com/miguelgargallo/pylaros/discussions) it.
 
 
-## For issues and feature requests
+## For issues
 
 Please open an issue in the [issues](https://github.com/miguelgargallo/pylaros/pulls) section.
 
