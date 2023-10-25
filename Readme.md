@@ -69,7 +69,7 @@ We are working so hard to add the following features:
 
 ## Databases
 
-There is a postgresql, here is the credentials:
+There is a Postgres ready, here is the credentials:
 
 | User       | Password   | Database   |
 | ---------- | ---------- | ---------- |
