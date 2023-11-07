@@ -2,6 +2,9 @@
 
 ## PylarOS: A superset of Linux for devs
 
+! Update !
+If you want to access via NAS: Call the container `thecontainer` then: `sudo docker exec -it thecontainer /bin/bash`, you will access as `root`, then switch to `dev` with `su dev`
+
 
 [Docker](https://hub.docker.com/repository/docker/itamaesan/pylaros/general) | [GitHub](https://github.com/itamaesanorg/pylaros) | [Twitter](https://twitter.com/MiguelGargallo) | [Support](https://cal.com/miguelgargallo/pylar-support?duration=45)
 
